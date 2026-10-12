@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld_ConsoleApp", "He
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstBlazorApp", "FirstBlazorApp\FirstBlazorApp\FirstBlazorApp.csproj", "{79BEB32F-9FD1-49AC-B8EB-7818EE126C9F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RazorPagesMovie", "RazorPagesMovie", "{BD653892-012C-0C7F-4B2E-407509656DEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesMovie", "RazorPagesMovie\RazorPagesMovie\RazorPagesMovie.csproj", "{73FCF303-5D61-4598-91F1-7DF93B0E7A93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,12 +47,25 @@ Global
 		{79BEB32F-9FD1-49AC-B8EB-7818EE126C9F}.Release|x64.Build.0 = Release|Any CPU
 		{79BEB32F-9FD1-49AC-B8EB-7818EE126C9F}.Release|x86.ActiveCfg = Release|Any CPU
 		{79BEB32F-9FD1-49AC-B8EB-7818EE126C9F}.Release|x86.Build.0 = Release|Any CPU
+		{73FCF303-5D61-4598-91F1-7DF93B0E7A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73FCF303-5D61-4598-91F1-7DF93B0E7A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73FCF303-5D61-4598-91F1-7DF93B0E7A93}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{73FCF303-5D61-4598-91F1-7DF93B0E7A93}.Debug|x64.Build.0 = Debug|Any CPU
+		{73FCF303-5D61-4598-91F1-7DF93B0E7A93}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{73FCF303-5D61-4598-91F1-7DF93B0E7A93}.Debug|x86.Build.0 = Debug|Any CPU
+		{73FCF303-5D61-4598-91F1-7DF93B0E7A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73FCF303-5D61-4598-91F1-7DF93B0E7A93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73FCF303-5D61-4598-91F1-7DF93B0E7A93}.Release|x64.ActiveCfg = Release|Any CPU
+		{73FCF303-5D61-4598-91F1-7DF93B0E7A93}.Release|x64.Build.0 = Release|Any CPU
+		{73FCF303-5D61-4598-91F1-7DF93B0E7A93}.Release|x86.ActiveCfg = Release|Any CPU
+		{73FCF303-5D61-4598-91F1-7DF93B0E7A93}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B8CC0EBC-8FCB-1484-F370-3A8E04DE9D07} = {D3CD8241-CA74-5CB8-CE1D-7CCC94C72F8E}
+		{73FCF303-5D61-4598-91F1-7DF93B0E7A93} = {BD653892-012C-0C7F-4B2E-407509656DEF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {213519A8-1967-4EF4-8FDC-FD6F8B30BC3C}
