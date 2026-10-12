@@ -11,6 +11,6 @@ I am learning how to use them, and making some basic functionality with them.
 - .NET Projects
   - .NET Hello World Console App
 
-  - .NET Blazor Web Application w/ Prototype Clicker Game
+  - .NET Blazor Web Application w/ Prototype Clicker Game (partially <a href="https://learn.microsoft.com/en-us/aspnet/core/get-started?view=aspnetcore-10.0" target="_blank">following ASP.NET tutorial<a/>)
 
-  - ASP.NET Core Web Application following <a href="https://learn.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-10.0&tabs=visual-studio-code" target="_blank">RazorPagesMovie tutorial<a/> 
+  - .NET Razor Pages Web Application following <a href="https://learn.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-10.0&tabs=visual-studio-code" target="_blank">RazorPagesMovie tutorial<a/> 
