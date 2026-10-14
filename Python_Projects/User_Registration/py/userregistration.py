@@ -50,7 +50,7 @@ class UserRegistration():
 
 
             if created_pass != confirmed_pass and not confirmed_pass_field.isReadOnly():
-                ErrorField.show_error(parent, error_message="Password do not match.", append=True)
+                ErrorField.show_error(parent, error_message="Passwords do not match.", append=True)
                 signup_failed = True
             
 
@@ -62,9 +62,9 @@ class UserRegistration():
             if existing_user or existing_email:
                 if existing_user is not None and existing_email is not None:                                                     
                     type = "Username and email are"
-                elif existing_user is not None and existing_email is None : 
+                elif existing_user is not None and existing_email is None: 
                     type = "Username is"
-                elif existing_user is None and existing_email is not None : 
+                elif existing_user is None and existing_email is not None: 
                     type = "Email is"
 
                 txt_to_show  = f"{type} already in use. Please try another."
